@@ -1,16 +1,19 @@
 {
-  "name": "mypkgjason",
+  "name": "login",
   "version": "1.0.0",
+  "description": "login authentication",
   "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.14.1",
+    "jsonwebtoken": "^7.4.3",
+    "mysql": "^2.13.0",
+    "vuex": "^4.0.0"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "express": "^4.17.1",
-    "multer": "^1.4.2",
-    "npm": "^7.5.2"
-  }
+  "license": "ISC"
 }
